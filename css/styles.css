@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.form {
+    width: 50%;
+    margin: 50px auto;
+}
+.form h1 {
+}
+.form label {
+    display: block;
+    margin-bottom: 20px;
+}
+.form .desc {
+    margin-bottom: 20px;
+    font-size: 0.9em
+}
+.form input {
+    width: 100%;
+    display: block;
+}
+.form textarea {
+    width: 100%;
+}
+.form .message {
+    margin-top: 20px;
+    background-color: darkcyan;
+    color: #fff;
+    padding: 4px;
+    display: none;
+}
+.form .error {
+    background-color: darkred;
+}
